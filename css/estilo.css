@@ -1,0 +1,111 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+
+
+
+a:hover{
+    color:white;
+}
+
+.header h1{
+    margin-bottom:0;
+}
+
+.header h2{
+    margin-top:0;
+}
+
+h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.experiencia p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.voluntariado p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.header{
+    background-color: #c2c9d6;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagem-perfil{
+    width: 400px;
+    border-radius: 100%; 
+    opacity: 0.8;
+}
+
+.imagem-perfil:hover{
+    opacity:1;
+}
+
+
+.navegacao-list-item {
+    display: inline;
+    margin: 0 10px;
+    /*margin: 0 10px; primeiro valor (em cima e embaixo) e segundo valor (esquerda e direita)*/
+    /*margin: 0 8px 0 8px; valores no sentido horario começando do topo*/
+}
+
+main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    
+}
+
+section{
+    display: flex;
+    border-bottom: 1px solid #888e99;
+    padding: 10px;
+}
+
+section h3{
+    min-width: 260px;
+    
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+h5{
+    font-size: 15;
+}
+
+footer{
+    background-color: #c2c9d6;
+    text-align: center;
+    padding: 20px 0;
+}
+}
+
+/*
+Para tirar as bolinhas da lista
+section ul li{
+    list-style: 
+}*/
